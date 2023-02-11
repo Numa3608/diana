@@ -8,7 +8,7 @@ body {
 
      .container {
          position: relative;
-         width: 320px;
+         width: 520px;
          margin: 100px auto 0 auto;
          perspective: 1000px;
      }
@@ -18,13 +18,13 @@ body {
          width: 100%;
          height: 100%;
          transform-style: preserve-3d;
-         animation: rotate360 60s infinite forwards linear;
+         animation: rotate360 60s infinite forwards alternate;
      }
 
      .image {
          position: absolute;
          width: 300px;
-         height: 187px;
+         height: 300px;
          top: 20px;
          left: 10px;
          right: 10px;
@@ -39,33 +39,33 @@ body {
      }
 
      .image:nth-child(1) {
-         background-image: url("images/di_1.png");
-         transform: rotateY( 0deg) translateZ(430px);
+         background-image: url("https://cdn.discordapp.com/attachments/1008571208041775235/1074057526800302131/Dante360_35_years_young_female_with_long_curly_brown_hair_and_g_21a8dcb6-a6ad-4d63-bf44-3f5dcf6da872.png");
+         transform: rotateY( 0deg) translateZ(560px);
      }
 
      .image:nth-child(2) {
-         background-image: url("image_url");
-         transform: rotateY( 40deg) translateZ(430px);
+         background-image: url("https://i.imgur.com/egXPPyl.png");
+         transform: rotateY( 40deg) translateZ(560px);
      }
 
      .image:nth-child(3) {
-         background-image: url("image_url");
-         transform: rotateY( 80deg) translateZ(430px);
+         background-image: url("https://i.imgur.com/KnuQVEh.jpg");
+         transform: rotateY( 80deg) translateZ(560px);
      }
 
      .image:nth-child(4) {
-         background-image: url("image_url");
+         background-image: url("https://i.imgur.com/LpcbFbp.jpg");
          transform: rotateY(120deg) translateZ(430px);
      }
 
      .image:nth-child(5) {
-         background-image: url("image_url");
+         background-image: url("https://i.imgur.com/fhnpXPj.jpg");
          transform: rotateY(160deg) translateZ(430px);
      }
 
      .image:nth-child(6) {
-         background-image: url("image_url");
-         transform: rotateY(200deg) translateZ(430px);
+         background-image: url("https://i.imgur.com/vLnuidF.jpg?1");
+         transform: rotateY(200deg) translateZ(560px);
      }
 
      .image:nth-child(7) {
