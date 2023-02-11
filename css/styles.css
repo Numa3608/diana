@@ -1,6 +1,6 @@
 body {
          margin: 0;
-         background: #2A2734;
+         background-color: #2A2734;
          text-align: center;
          font-family: sans-serif;
          color: #fefefe;
@@ -39,7 +39,7 @@ body {
      }
 
      .image:nth-child(1) {
-         background-image: url("image_url");
+         background-image: url("images/di_1.png");
          transform: rotateY( 0deg) translateZ(430px);
      }
 
