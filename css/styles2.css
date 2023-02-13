@@ -8,6 +8,14 @@ body {
      }
 
      .container {
+        position: relative;
+        top: 750px;
+        width: 520px;
+        margin: 100px auto 0 auto;
+        perspective: 1000px;
+    }
+
+     .container1 {
          position: relative;
          width: 520px;
          margin: 100px auto 0 auto;
@@ -40,12 +48,12 @@ body {
      }
 
      .image:nth-child(1) {
-         background-image: url("https://cdn.discordapp.com/attachments/1008571208041775235/1074057526800302131/Dante360_35_years_young_female_with_long_curly_brown_hair_and_g_21a8dcb6-a6ad-4d63-bf44-3f5dcf6da872.png");
+         background-image: url("");
          transform: rotateY( 0deg) translateZ(560px);
      }
 
      .image:nth-child(2) {
-         background-image: url("https://i.imgur.com/egXPPyl.png");
+         background-image: url("https://i.imgur.com/xEJRA4a.gif");
          transform: rotateY( 40deg) translateZ(560px);
      }
 
@@ -60,12 +68,12 @@ body {
      }
 
      .image:nth-child(5) {
-         background-image: url("https://i.imgur.com/fhnpXPj.jpg");
+         background-image: url("https://i.imgur.com/5XZde2U.gif");
          transform: rotateY(160deg) translateZ(430px);
      }
 
      .image:nth-child(6) {
-         background-image: url("https://i.imgur.com/vLnuidF.jpg?1");
+         background-image: url("https://i.imgur.com/VxP9KG4.gif");
          transform: rotateY(200deg) translateZ(560px);
      }
 
@@ -75,17 +83,17 @@ body {
      }
 
      .image:nth-child(8) {
-         background-image: url("https://i.imgur.com/GYCg7hR.jpg");
+         background-image: url("https://i.imgur.com/iAeFTwF.gif");
          transform: rotateY(280deg) translateZ(430px);
      }
 
      .image:nth-child(9) {
-         background-image: url("https://i.imgur.com/RhYmpTm.jpg");
+         background-image: url("");
          transform: rotateY(320deg) translateZ(430px);
      }
 
      .image:nth-child(10) {
-        background-image: url("https://i.imgur.com/duZlenx.jpg");
+        background-image: url("");
         transform: rotateY(320deg) translateZ(430px);
     }
 
