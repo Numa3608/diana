@@ -1,11 +1,18 @@
 body {
     margin: 0;
     background-color: #2A2734;
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #8f1fa5;
+}
+
+.introduction{
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
-    color: #a51f1f;
 }
+
 .eye{
     position:absolute;
     height:300px;
@@ -13,10 +20,9 @@ body {
     top: 40px;
     left : 40px;
     z-index: 1;
-  }
+}
   
-  .heaven
-  {
+.heaven{
     position:relative;
     z-index: -1;
-  }
+}
