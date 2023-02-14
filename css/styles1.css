@@ -17,7 +17,7 @@ body {
     position:absolute;
     height:300px;
     width:300px;
-    top: 40px;
+    top: auto;
     left : 40px;
     z-index: 1;
 }
